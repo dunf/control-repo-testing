@@ -11,8 +11,8 @@ class profile::base_linux {
   class { 'timezone':
     timezone => 'Europe/Oslo',
   }
-  package { 'fortune':
-    ensure => latest,
+  package { 'fortune-mod':
+    ensure => present,
   }
  
 }
