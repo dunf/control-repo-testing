@@ -4,6 +4,6 @@ node default {
   include ::profile::base_linux
 }
 
-node puppet-master.ctf.lan {
+node 'puppet-master.ctf.lan' {
   include ::role::puppet_master
 }
